@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "palmarosaShop",
+    "slug": "palmarosaShop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Palmarosa-logo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.marzoukiotman.palmarosaShop",
+      "config": {
+           "googleMaps": {
+            "apiKey": "AIzaSyA_E9U6e7VZY8-D2S-G9536N7hro3lF2Yg"
+            }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiv-logo-Palmarosa.png",
+        "backgroundColor": "#FFFFFF"
+      }
+      
+     
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
